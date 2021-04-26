@@ -25,6 +25,17 @@ body{
     background-color: var(--very--dark--blue);
 }
 
+@media (min-width: 1200px){
+    .component{
+        width: 1110px;
+        height: 446px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 170px;
+    }
+}
+
 .header-image{
     width: 100%;
     height: 240px;
@@ -33,6 +44,24 @@ body{
     background-size: cover;
     background-color: var(--soft--violet);
     background-blend-mode: multiply;
+}
+
+@media (min-width: 1200px){
+    .header-image{
+        width: 540px;
+        height: 446px;
+        border-radius: 0px 8px 8px 0px;
+    }
+}
+
+@media (min-width: 1200px){
+    .component-information{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin:0 auto;
+    }
 }
 
 .header{
@@ -45,6 +74,16 @@ body{
     color: var(--white);
     font-weight: bold;
     text-align: center;
+}
+
+@media (min-width: 1200px){
+    .header{
+        width: 403px;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: left;
+        margin-top: 71px;
+    }
 }
 
 #insights{
@@ -60,8 +99,18 @@ body{
     line-height: 25px;
     opacity: .6;
 }
+@media (min-width: 1200px){
+    .sub-header{
+        width: 374px;
+        text-align: left;
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
 
 /* INFORMATION-STATS SECTION */
+
+
 
 .information{
     margin-top: 20px;
@@ -70,9 +119,24 @@ body{
     align-items: center;
 }
 
+@media (min-width: 1200px){
+    .information{
+        flex-direction: row;
+        margin-top: 50px;
+    }
+}
+
+
 .information-block{
     color: white;
     text-align: center;
+}
+
+@media (min-width: 1200px){
+    .information-block{
+        margin-right: 55px;
+        text-align: left;
+    }
 }
 
 .information-block h2{

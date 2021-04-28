@@ -44,6 +44,7 @@ body{
     background-size: cover;
     background-color: var(--soft--violet);
     background-blend-mode: multiply;
+    opacity: 73%;
 }
 
 @media (min-width: 1200px){
